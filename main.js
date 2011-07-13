@@ -5,6 +5,8 @@
  * Copyright @authors 2011
  *
  * @author Ben Francis http://tola.me.uk
+ *
+ * EDITED FOR KIOSK-SHELL BY Cody Long https://github.com/majtophat
  * 
  * Webian Shell is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -30,7 +32,8 @@ urlHistory = [], // History of URLs
 currentUrlIndex = 0, // Index of current point in URL history
 clockElement,
 selectedDownTab,
-enteredTab;
+enteredTab,
+kiosk_url = "http://webian.org/shell/welcome/0.1"; //Change this to your website
 
 /**
  * Clock
@@ -268,6 +271,10 @@ function newTab(url) {
 		$("#windows .selected .url_input").val(url);
 		navigate(windowId);
 	}
+	else {
+		$("#windows .selected .url_input").val(kiosk_url);
+		navigate(windowId);
+	}
 }
 
 /** 
@@ -429,7 +436,7 @@ $(document).ready(function() {
 	self.setInterval(clock, 1000);
 
 	// Create first tab
-	newTab("http://webian.org/shell/welcome/0.1");
+	newTab(kiosk_url);
 
 	// Listen for requested new tabs
 	$("#new_tab_button").click(function() {

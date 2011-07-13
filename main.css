@@ -3,6 +3,8 @@
  * http://webian.org
  * 
  * Copyright See AUTHORS file
+ *
+ * EDITED FOR KIOSK-SHELL BY Cody Long https://github.com/majtophat
  * 
  * Webian Shell is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -170,7 +172,7 @@ body {
 
 .address_bar {
 	-moz-box-flex: 1;
-	display: -moz-box;
+	display: none;
 	-moz-box-orient: horizontal;
 	-moz-box-align: start;
 	width: 100%;

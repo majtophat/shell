@@ -1,9 +1,9 @@
 {
     "build_id": "20110604183742", 
     "vendor": "Webian", 
-    "name": "Webian Shell", 
+    "name": "Webian Kiosk-Shell", 
     "resizable": false, 
-    "developer_email": "ben at tola.me.uk", 
+    "developer_email": "ben at tola.me.uk (Webian Shell) cody.allen.long <at> gmail.com (Webian Kiosk-Shell", 
     "module_dirs": [], 
     "version": "0.1", 
     "menubar": false
