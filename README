@@ -1,8 +1,8 @@
-== Webian Shell 0.1 ==
+== Webian Kiosk Shell 0.1 ==
 
-Webian Shell is a graphical shell for the web, a full screen web browser for devices that don't need a desktop.
+Webian Kiosk Shell is a graphical shell for the web, a full screen web browser for devices that don't need a desktop.
 
-It's an implementation of a design concept called "A Graphical Shell for the Web" [1] by Ben Francis. 
+It's an implementation of a design concept called "A Graphical Shell for the Web" [1] by Ben Francis that has been edited by Cody Long to provide Kiosk caabilities. 
 
 The code is designed to be run using Mozilla Chromeless [2] and currently lives on the Webian web site [3].
 
